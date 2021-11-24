@@ -1,0 +1,141 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+
+body.index {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(BGPicture.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+}
+  
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #33E9FF;
+  color:  #000;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color:  #000;
+}
+
+body.about{
+  background: url(aboutbg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Ceviche One', cursive;
+}
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+
+.Name h1{
+  color: #000000;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+}
+
+.Year h2{
+  color: #000000 ;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.image {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+p{
+  font-size: 2rem;
+  color: #000000;
+  line-height: 5rem;
+  margin-bottom: 5rem ;
+}
+
+.boutn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.boutn:hover{
+  background-color: #fff;
+  color:  #000;
+}
+
+.boutnn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.boutnn:hover{
+  background-color: #fff;
+  color:  #000;
+}
+
+.cintir video{
+  margin-top: 120% ;
+}
